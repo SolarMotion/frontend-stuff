@@ -1,1 +1,28 @@
+```
+<body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+</body>
+```
 
+```
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+```
